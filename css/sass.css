@@ -1,0 +1,197 @@
+::-moz-placeholder {
+  color: aliceblue;
+}
+
+::placeholder {
+  color: aliceblue;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #1c1c24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card,
+main ._form {
+  width: 500px;
+  height: 300px;
+  background: inherit;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(28px);
+          backdrop-filter: blur(28px);
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+main .card .titel,
+main ._form .titel {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ECE9E6;
+  width: 100%;
+  text-align: end;
+  justify-content: end;
+  display: flex;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+}
+main .card figure,
+main ._form figure {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  margin-left: 35px;
+}
+main .card figure img,
+main ._form figure img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .card .leaout,
+main ._form .leaout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+main .card .leaout input,
+main ._form .leaout input {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 30px;
+}
+main .card ._Date,
+main ._form ._Date {
+  width: 100%;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+main .card ._Date span,
+main ._form ._Date span {
+  color: #ECE9E6;
+  font-size: 16px;
+}
+main .card ._Date input,
+main ._form ._Date input {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 16px;
+}
+main .card ._Date .cvv2,
+main ._form ._Date .cvv2 {
+  color: #ECE9E6;
+  margin-left: 250px;
+}
+main .card ._Date .cvv2 input,
+main ._form ._Date .cvv2 input {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 16px;
+}
+main ._form h2 {
+  color: #ECE9E6;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+main ._form .firstPart {
+  width: 100%;
+  margin-left: 20px;
+}
+main ._form .firstPart input {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  border: 1px solid #ECE9E6;
+  border-radius: 8px;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 20px;
+}
+main ._form .Expiration-Date1 h2 {
+  color: #ECE9E6;
+  font-size: 20px;
+}
+main ._form .Expiration-Date1 div {
+  border: 1px solid white;
+  width: 50%;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+main ._form .Expiration-Date1 div span {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+main ._form .Expiration-Date1 div input {
+  width: 40px;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+main ._form .cvv2 h2 {
+  color: #ECE9E6;
+  font-size: 20px;
+}
+main ._form .cvv2 div {
+  width: 50%;
+  margin-left: 30px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+main ._form .cvv2 div input {
+  width: 50px;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+main ._form ._btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+main ._form ._btn #btn {
+  width: 30%;
+  outline: none;
+  border: 1px solid #ECE9E6;
+  border-radius: 8px;
+  transition: 0.4s;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+}
+main ._form ._btn #btn:hover {
+  transform: scale(0.9);
+  background-color: #1c1c24;
+  color: goldenrod;
+}/*# sourceMappingURL=sass.css.map */

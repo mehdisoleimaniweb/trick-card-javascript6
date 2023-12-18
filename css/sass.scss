@@ -1,0 +1,212 @@
+::placeholder {
+    color: aliceblue;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #1c1c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card,
+    ._form {
+        width: 500px;
+        height: 300px;
+        background: inherit;
+
+        box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(28px);
+        // align-content: space-evenly;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+
+        .titel {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: #ECE9E6;
+            width: 100%;
+            text-align: end;
+            justify-content: end;
+            display: flex;
+            position: fixed;
+            top: 0;
+            padding: 20px;
+
+        }
+
+        figure {
+            width: 100px;
+            height: 50px;
+            display: flex;
+            justify-content: start;
+            margin-left: 35px;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+
+        .leaout {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+
+            input {
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                border: none;
+                outline: none;
+                background-color: inherit;
+                color: white;
+                font-size: 30px;
+            }
+        }
+
+        ._Date {
+            width: 100%;
+
+            span {
+                color: #ECE9E6;
+                font-size: 16px;
+
+            }
+
+            margin-left: 35px;
+            margin-top: 10px;
+
+            input {
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                border: none;
+                outline: none;
+                background-color: inherit;
+                color: white;
+                font-size: 16px;
+            }
+
+            .cvv2 {
+                color: #ECE9E6;
+                margin-left: 250px;
+
+                input {
+                    width: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: none;
+                    outline: none;
+                    background-color: inherit;
+                    color: white;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    ._form {
+        h2 {
+            color: #ECE9E6;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        .firstPart {
+            width: 100%;
+            margin-left: 20px;
+
+            input {
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                border: 1px solid #ECE9E6;
+                border-radius: 8px;
+                outline: none;
+                background-color: inherit;
+                color: white;
+                font-size: 20px;
+            }
+        }
+        .Expiration-Date1 {
+            h2 {
+                color: #ECE9E6;
+                font-size: 20px;
+            }
+            div {
+                border: 1px solid white;
+                width: 50%;
+                margin-left: 30px;
+                border-radius: 8px;
+                
+
+                span {
+                    font-size: 20px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                }
+
+                input {
+                    width: 40px;
+                    outline: none;
+                    background-color: inherit;
+                    color: white;
+                    font-size: 20px;
+                    border: none;
+
+                }
+            }
+            
+        }
+        .cvv2{
+            
+            h2{
+                color: #ECE9E6;
+                font-size: 20px;
+            }
+            div{
+                width: 50%;
+            margin-left: 30px;
+                border: 1px solid white;
+                display: flex;
+                justify-content: center;
+                border-radius: 8px;
+                input{
+                    width: 50px;
+                    outline: none;
+                    background-color: inherit;
+                    color: white;
+                    font-size: 20px;
+                    border: none;
+                }
+            }
+        }
+        ._btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            #btn{
+                width: 30%;
+                outline: none;
+                border: 1px solid #ECE9E6;
+                border-radius: 8px;
+                transition: .4s;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 20px;
+                &:hover{
+                    transform: scale(.9);
+                    background-color: #1c1c24;
+                    color: goldenrod;
+                }
+            }
+        }
+    }
+}

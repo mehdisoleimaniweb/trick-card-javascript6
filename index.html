@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="js/index.js">
+    <link rel="stylesheet" href="css/sass.css">
+    <title>project js</title>
+</head>
+
+<body>
+    <main>
+        <div class="card row ">
+            <div class="titel">
+                <h2 class="text-uppercase">visa</h2>
+            </div>
+            <figure>
+                <img src="img/chip.png" alt="">
+            </figure>
+            <div class="leaout">
+                <input id="inp1" type="text" placeholder="0000  0000  0000  0000">
+            </div>
+            <div class="_Date d-flex ">
+                <input id="inp2" type="text" placeholder="00">
+                <span>/</span>
+                <input id="inp3" type="text" placeholder="00">
+                <div class="cvv2  d-flex ">
+                    cvv2:
+                    <input id="inp4" type="text" placeholder="0000">
+                </div>
+            </div>
+        </div>
+        <div class="_form mx-5 ">
+            <h2>Visa Card Number:</h2>
+            <div class="firstPart d-flex">
+                <!-- <i class="bi bi-credit-card-2-back"></i> -->
+                <input id="numberCard" type="text">
+            </div>
+            <div class="Expiration-Date col-12 row justify-content-between ">
+                <div class="d-flex row col-6 col-lg  Expiration-Date1">
+                   <h2>ExpirationDate:</h2>
+                   <div class="d-flex ">
+                    <input id="date1" type="text" placeholder=" 00">
+                <span>/</span>
+                <input id="date2" type="text" placeholder="00">
+                   </div>
+                </div>
+                <div class="col-6 cvv2 col-lg">
+                    <h2>cvv2:</h2>
+                    <div class="d-flex">
+                        <input id="cvv2" type="text" placeholder="0000">
+                    </div>
+                </div>
+            </div>
+            <div class="_btn">
+            <button id="btn" type="submit">submit</button>
+
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
